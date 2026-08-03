@@ -1,0 +1,36 @@
+{
+  "useCase": "UC1",
+  "title": "NCD Care Adherence",
+  "chunks": [
+    {
+      "id": "uc1-med-schedule",
+      "topic": "medication_schedule",
+      "keywords": ["dawai", "medicine", "dava", "tablet", "दवाई", "दवा", "कब ले", "when take", "schedule", "time"],
+      "content": "Hypertension patients should take prescribed BP medicine at the same time every day. Most BP medicines are taken once daily in the morning with water, on an empty or light stomach as advised by the doctor. Never skip doses. If you forget a dose, take it as soon as you remember unless it is almost time for the next dose. Do not double the dose. Set a daily alarm for medicine time."
+    },
+    {
+      "id": "uc1-followup",
+      "topic": "follow_up",
+      "keywords": ["follow up", "followup", "checkup", "जांच", "दोबारा", "visit", "doctor", "डॉक्टर"],
+      "content": "NCD patients should visit their health facility every 3 months for follow-up. At each visit, blood pressure, weight, and basic tests are checked. If BP is uncontrolled for 3 consecutive readings, the patient should be referred to a higher facility within 7 days per government NCD protocol."
+    },
+    {
+      "id": "uc1-screening",
+      "topic": "annual_screening",
+      "keywords": ["screening", "annual", "yearly", "जांच", "सालाना", "test", "blood sugar", "diabetes"],
+      "content": "All adults above 30 should get annual NCD screening at their nearest Ayushman Arogya Mandir or PHC. Screening includes blood pressure, blood sugar, and BMI. Early detection helps prevent heart attack and stroke."
+    },
+    {
+      "id": "uc1-lifestyle",
+      "topic": "lifestyle",
+      "keywords": ["diet", "salt", "exercise", "खाना", "नमक", "व्यायाम", "walk", "food", "lifestyle"],
+      "content": "For hypertension: reduce salt intake to less than 5 grams per day, avoid pickles and papad, eat more vegetables and fruits, walk 30 minutes daily, avoid tobacco and alcohol. Take medicines regularly even when feeling fine."
+    },
+    {
+      "id": "uc1-reminder",
+      "topic": "reminders",
+      "keywords": ["reminder", "yaad", "भूल", "forget", "miss", "nudge", "alert"],
+      "content": "Daily medication reminders help prevent missed doses. The most common reason for missed BP medicine is simply forgetting. Use phone alarms or family member reminders. Take medicine at the same time daily — morning after breakfast works well for most patients."
+    }
+  ]
+}

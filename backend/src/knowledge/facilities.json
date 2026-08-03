@@ -1,0 +1,36 @@
+{
+  "useCase": "UC3",
+  "title": "Public Health Facility Linkage",
+  "chunks": [
+    {
+      "id": "uc3-phc-bengaluru",
+      "topic": "phc",
+      "keywords": ["hospital", "phc", "facility", "center", "centre", "अस्पताल", "केंद्र", "where", "near", "नजदीक", "कहाँ"],
+      "content": "PHC Yelahanka (Bengaluru Rural): Provides NCD screening, BP/diabetes check, free medicines, and referral. Address: Yelahanka New Town, Bengaluru. Open Mon-Sat 9am-4pm. Services: NCD clinic on Wednesdays."
+    },
+    {
+      "id": "uc3-chc",
+      "topic": "chc",
+      "keywords": ["chc", "community", "refer", "रेफर", "higher", "बड़ा अस्पताल"],
+      "content": "CHC Devanahalli: Community Health Centre with doctor, lab, and emergency stabilization. Refer here if PHC cannot manage your condition. Has teleconsultation facility. Address: Devanahalli, Bengaluru Rural. Open 24/7 for emergencies."
+    },
+    {
+      "id": "uc3-ayushman-mandir",
+      "topic": "ayushman_mandir",
+      "keywords": ["ayushman", "mandir", "आयुष्मान", "मंदिर", "wellness", "screening"],
+      "content": "Ayushman Arogya Mandir: Primary point for NCD screening and basic care. Free BP and blood sugar check. Available in most villages. Ask your ASHA worker for the nearest Ayushman Arogya Mandir location."
+    },
+    {
+      "id": "uc3-emergency-facility",
+      "topic": "emergency_facility",
+      "keywords": ["emergency", "108", "ambulance", "तुरंत", "आपातकाल", "chest pain", "stroke"],
+      "content": "For cardiac emergency or stroke: Go directly to District Hospital or call 108 for free ambulance. Do NOT go to PHC for heart attack — go to a facility with cardiac care. Victoria Hospital Bengaluru and Jayadeva Institute are referral centers for cardiac emergencies."
+    },
+    {
+      "id": "uc3-services",
+      "topic": "services",
+      "keywords": ["service", "what provide", "सेवा", "क्या मिलता", "medicine free"],
+      "content": "Government PHC services: Free NCD medicines (amlodipine, metformin, etc.), quarterly follow-up, lab tests, referral slips, and maternal-child health. NCD clinic days vary — ask at your PHC reception."
+    }
+  ]
+}

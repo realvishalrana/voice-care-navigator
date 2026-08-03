@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/types.ts","./src/components/languageselector.tsx","./src/components/responsedisplay.tsx","./src/components/voicebutton.tsx","./src/hooks/usevoicesession.ts","./src/utils/audiorecorder.ts","./src/utils/browserspeech.ts"],"version":"5.8.3"}

@@ -1,0 +1,30 @@
+{
+  "useCase": "UC2",
+  "title": "Scheme Entitlement - PM-JAY / AB-PMJAY",
+  "chunks": [
+    {
+      "id": "uc2-eligibility",
+      "topic": "eligibility",
+      "keywords": ["eligible", "eligibility", "योग्य", "पात्र", "pmjay", "pm-jay", "ayushman", "आयुष्मान", "scheme", "योजना"],
+      "content": "PM-JAY (Ayushman Bharat) provides free health coverage up to Rs 5 lakh per family per year. Eligibility is based on SECC 2011 data for rural and urban categories. Rural families in categories 1-6 (D1, D2, D3, D4, D5, D7) are eligible. Check eligibility using your ration card number or Aadhaar at the nearest Ayushman Mitra desk or PM-JAY portal."
+    },
+    {
+      "id": "uc2-benefits",
+      "topic": "benefits",
+      "keywords": ["benefit", "free", "cover", "लाभ", "मुफ्त", "5 lakh", "treatment", "इलाज"],
+      "content": "PM-JAY covers 1,929 procedures including NCD treatment, cardiac care, dialysis, and hospitalization. Treatment is cashless at empanelled hospitals. Show your Ayushman card or Aadhaar at any PM-JAY empanelled hospital. No payment needed for covered procedures."
+    },
+    {
+      "id": "uc2-enrollment",
+      "topic": "enrollment",
+      "keywords": ["enroll", "register", "card", "पंजीकरण", "कार्ड", "apply", "आवेदन", "how get"],
+      "content": "To enroll in PM-JAY: Visit nearest Ayushman Mitra at CHC/PHC with Aadhaar and ration card. If your family is in SECC database, you get a Golden Card on the spot. If not listed, contact the District Collector office for inclusion. Toll-free helpline: 14555."
+    },
+    {
+      "id": "uc2-ncd-coverage",
+      "topic": "ncd_coverage",
+      "keywords": ["diabetes", "hypertension", "bp", "heart", "ncd", "मधुमेह", "दिल"],
+      "content": "PM-JAY covers NCD-related hospitalization including cardiac procedures, stroke treatment, and complications of diabetes and hypertension. Outpatient medicines at government facilities are free under NHM. For PM-JAY inpatient coverage, visit an empanelled hospital."
+    }
+  ]
+}

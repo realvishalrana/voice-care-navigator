@@ -1,0 +1,30 @@
+{
+  "useCase": "UC4",
+  "title": "Teleconsultation and Triage",
+  "chunks": [
+    {
+      "id": "uc4-teleconsult",
+      "topic": "teleconsultation",
+      "keywords": ["teleconsult", "video", "call doctor", "डॉक्टर से बात", "phone", "consult", "सलाह"],
+      "content": "eSanjeevani teleconsultation connects you to a government doctor by video or audio. Available at PHC/CHC or via the eSanjeevani app. For non-urgent NCD questions, book a teleconsult slot at your PHC. Operating hours: 9am to 5pm Mon-Sat."
+    },
+    {
+      "id": "uc4-non-urgent",
+      "topic": "non_urgent",
+      "keywords": ["mild", "slight", "thoda", "थोड़ा", "general", "question", "सवाल"],
+      "content": "For mild symptoms like slight headache, mild dizziness after BP medicine, or general NCD questions — use teleconsultation or visit PHC during working hours. Bring your medicine strip and previous prescription."
+    },
+    {
+      "id": "uc4-when-escalate",
+      "topic": "escalation_info",
+      "keywords": ["serious", "urgent", "गंभीर", "emergency", "when go"],
+      "content": "Go to hospital immediately if: chest pain lasting more than 5 minutes, sudden weakness on one side of body, difficulty speaking, severe breathlessness, or BP above 180/120 with symptoms. Call 108. Do not wait for teleconsultation for these symptoms."
+    },
+    {
+      "id": "uc4-referral",
+      "topic": "referral",
+      "keywords": ["referral", "refer", "रेफरल", "slip", "higher center"],
+      "content": "If your PHC doctor refers you to a higher center, take the referral slip. PM-JAY empanelled hospitals accept government referrals for cashless treatment. Keep your Ayushman card and Aadhaar ready."
+    }
+  ]
+}
