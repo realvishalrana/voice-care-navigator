@@ -15,8 +15,7 @@ import {
   type BrowserSttResult,
 } from '../utils/browserSpeech';
 import { startMicRecording, type RecordingSession } from '../utils/audioRecorder';
-
-const API_BASE = '/api/voice';
+import { API_BASE, HEALTH_URL } from '../config';
 
 function resolveRecordingMode(
   requested: VoiceMode,
@@ -59,7 +58,7 @@ export function useVoiceSession(languageCode: LanguageCode, voiceMode: VoiceMode
 
   const checkBackend = useCallback(async (): Promise<boolean> => {
     try {
-      const res = await fetch('/health', { signal: AbortSignal.timeout(4000) });
+      const res = await fetch(HEALTH_URL, { signal: AbortSignal.timeout(4000) });
       if (!res.ok) throw new Error('health failed');
       const data = (await res.json()) as HealthStatus;
       setHealth(data);
