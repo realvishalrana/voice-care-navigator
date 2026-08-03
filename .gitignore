@@ -2,8 +2,6 @@
 node_modules/
 
 # Environment & secrets
-.env
-.env.local
 backend/.env
 backend/credentials/
 *.json
@@ -22,5 +20,5 @@ backend/dist/
 Thumbs.db
 
 # IDE
-.vscode/
 .idea/
+config.bat

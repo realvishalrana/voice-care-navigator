@@ -2,12 +2,16 @@
   "name": "vda-assistant",
   "private": true,
   "version": "1.0.0",
-  "description": "Voice-first NCD care navigation assistant — Medtronic Labs build challenge",
+  "description": "Voice-first NCD care navigation assistant \u2014 Medtronic Labs build challenge",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^3.3.2"
+  },
   "scripts": {
-    "dev:backend": "npm run dev --prefix backend",
-    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:backend": "node init && npm run dev --prefix backend",
+    "dev:frontend": "node init && npm run dev --prefix frontend",
     "install:all": "npm install --prefix backend && npm install --prefix frontend",
-    "build": "npm run build --prefix frontend && npm run typecheck --prefix backend",
+    "build": "node init && npm run build --prefix frontend && npm run typecheck --prefix backend",
     "test:safety": "tsx backend/src/test/safety.test.ts"
   }
 }

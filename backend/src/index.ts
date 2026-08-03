@@ -9,9 +9,9 @@ import { hasGeminiKey } from './services/rag.js';
 
 const app = express();
 const PORT = Number(process.env.PORT) || 3001;
-const CORS_ORIGIN = process.env.CORS_ORIGIN || 'http://localhost:5173';
 
-app.use(cors({ origin: CORS_ORIGIN }));
+// Allow all origins (frontend on Vercel, local, etc.)
+app.use(cors({ origin: true }));
 app.use(express.json());
 
 app.get('/health', (_req, res) => {
